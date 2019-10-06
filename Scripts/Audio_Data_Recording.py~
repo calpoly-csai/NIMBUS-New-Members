@@ -4,8 +4,8 @@ import os
 import time
 import winsound
 
-USER_NAME = None # <<ENTER YOUR LAST NAME HERE>>
-PATH = None
+USER_NAME = "ewenike" # <<ENTER YOUR LAST NAME HERE>>
+PATH = "C:\\Users\\cej17\\OneDrive - California Polytechnic State University\\Escuela\\Clubs\\CSAI\\NIMBUS-New-Members"
 
 CHUNK = 2048 # Buffer size
 FORMAT = pyaudio.paInt16 # Sample Size
