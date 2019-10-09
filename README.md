@@ -26,19 +26,16 @@ Also, modifications to the script need to be made.
 
 
 After these modifications, your program should run. Label the audio recording with the appropriate name for organization. Format is as follows: 
+```
 Wake Word:
       “<ww>_<gender>_<description> _<location>_<noise-level>_<last name>_<first name>_<date>_<your last name>.wav”
-Ex: Correct Wake Word Label Example:
-	  “ww_m_curious_classroom_q_skywalker_luke_04212019120040_ewenike.wav”
-   Incorrect Wake Word Label Example:
-  “recording1.wav”
+Ex: “ww_m_curious_classroom_q_skywalker_luke_04212019120040_ewenike.wav”
 
-     Not Wake Word:
-      “<notww>_<description>_<location>_<noise-level>_<date>_<your last name>.wav”
-Ex: Correct Wake Word Label Example:
-	  “notww_background_classroom_l_04212019120040_ewenike.wav”
-   Incorrect Wake Word Label Example:
-  “reco.wav”
+Not Wake Word:
+      “<notww>_<description>_<location>_<noise-level>_<date>_<your last name>.wav”   
+
+Ex: “notww_background_classroom_l_04212019120040_ewenike.wav”
+```
 
 Be sure to follow the spec description guidelines in the Data directory for correct description labeling. 
 
