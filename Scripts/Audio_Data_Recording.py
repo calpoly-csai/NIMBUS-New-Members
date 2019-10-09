@@ -1,3 +1,14 @@
+# =============================================================================
+# Title: Audio Recording
+# Author: Chidi Ewenike
+# Date: 04/19/2019
+# Organization: Cal Poly CSAI
+# Description: Records audio and labels the recording
+#
+#
+# =============================================================================
+
+
 import wave
 import pyaudio
 import os
@@ -5,7 +16,9 @@ import time
 import winsound
 
 USER_NAME = None # <<ENTER YOUR LAST NAME HERE>>
-PATH = None
+                 # Ex: ewenike
+PATH = None # <<ENTER THE PATH TO THIS REPO ON YOUR LOCAL MACHINE>>
+            # Ex: "C:\\Users\\cej17\\OneDrive - California Polytechnic State University\\Escuela\\Clubs\\CSAI\\NIMBUS-New-Members"
 
 CHUNK = 2048 # Buffer size
 FORMAT = pyaudio.paInt16 # Sample Size
