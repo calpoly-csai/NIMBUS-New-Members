@@ -22,5 +22,24 @@ Also, modifications to the script need to be made.
    
 3. If you are not using Windows, you must change the double backslashs in line 118 to single forward slashes.
    Ex: wf = wave.open("%s\\Data\\%s\\%s" % (PATH...... to wf = wave.open("%s/Data/%s/%s" % (PATH......
-   
-After these modifications, your program should run. Be sure to follow the spec description guidelines in the Data directory for correct labeling. Happy collecting!
+
+
+
+After these modifications, your program should run. Label the audio recording with the appropriate name for organization. Format is as follows: 
+Wake Word:
+      “<ww>_<gender>_<description> _<location>_<noise-level>_<last name>_<first name>_<date>_<your last name>.wav”
+Ex: Correct Wake Word Label Example:
+	  “ww_m_curious_classroom_q_skywalker_luke_04212019120040_ewenike.wav”
+   Incorrect Wake Word Label Example:
+  “recording1.wav”
+
+     Not Wake Word:
+      “<notww>_<description>_<location>_<noise-level>_<date>_<your last name>.wav”
+Ex: Correct Wake Word Label Example:
+	  “notww_background_classroom_l_04212019120040_ewenike.wav”
+   Incorrect Wake Word Label Example:
+  “reco.wav”
+
+Be sure to follow the spec description guidelines in the Data directory for correct description labeling. 
+
+Happy collecting!
